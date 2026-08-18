@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StudyHub Bihar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>📚 StudyHub Bihar</h1>
+      <p>Free study material & practice</p>
+    </div>
+    <button id="telegramBtn">Open in Telegram</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>अपनी तैयारी एक जगह करें</h2>
+      <p>Notes, PYQ, MCQ और free video resources.</p>
+      <input id="search" type="search" placeholder="Search subject, notes, PYQ...">
+    </section>
+
+    <section class="cards">
+      <button class="card" data-section="notes">📖<b>Notes</b><span>Subject-wise notes</span></button>
+      <button class="card" data-section="pyq">📝<b>PYQ</b><span>Previous year questions</span></button>
+      <button class="card" data-section="quiz">🎯<b>MCQ Quiz</b><span>Practice questions</span></button>
+      <button class="card" data-section="videos">🎥<b>Videos</b><span>Free video resources</span></button>
+    </section>
+
+    <section id="content" class="content">
+      <h2>Latest Study Material</h2>
+      <div id="items"></div>
+    </section>
+  </main>
+
+  <footer>© 2026 StudyHub Bihar • Original / properly licensed content only</footer>
+  <script src="app.js"></script>
+</body>
+</html>
